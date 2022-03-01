@@ -4,7 +4,7 @@ app = express()
 var url = require('url');
 var dt = require('./date-time');
 
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 4000
 
 // Use Express to publish static HTML, CSS, and JavaScript files that run in the browser. 
 app.use(express.static(__dirname + '/static'))
